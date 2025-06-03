@@ -6,7 +6,7 @@
   gap: 2rem;
   padding:  2rem;
   margin-top: 4rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   
 }
 
@@ -62,6 +62,7 @@
   .about-container {
     flex-direction: column-reverse;
     text-align: center;
+    margin-top: 1rem;
   }
 
   .about-article {
