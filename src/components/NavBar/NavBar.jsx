@@ -1,42 +1,45 @@
-import React from 'react'
-import styles from './NavBar.module.scss'
-import '../../App.scss'
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import cvEspañol from '../../assets/cv/CV_Francisco_Toro_Español.pdf'
+import cvEnglish from '../../assets/cv/CV_Francisco_Toro_English.pdf'
+
+import styles from './NavBar.module.css';
 
 const NavBar = () => {
-
-
     return (
-        <div className={` text-center ${styles["header-container"]} `}>
-            <header className={`mt-3`}>
-                <h1 className={'h-color'}>Francisco Toro</h1>
-                <p className={'h-color'}>Software Developer</p>
-                <p className={'text-color'}>Python, Javascript, React, Node, MySQL, Firebase, Github, HTML, CSS <br />Visit my <a href="https://www.linkedin.com/in/francisco-toro-goitea-475b71277/"><strong>Linkedln</strong></a> and my <a href="https://github.com/frantoro10"><strong>Github</strong></a>!<br /> <strong>Gmail:</strong> torofrancisco13@gmail.com </p>
+        <aside className={styles["header-container"]}>
+            <section className={styles.socialIcons}>
+                <a href="https://www.linkedin.com/in/francisco-toro-goitea-475b71277/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <FaLinkedin />
+                </a>
+                <a href="https://github.com/frantoro10" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <FaGithub />
+                </a>
+                <a href="https://www.instagram.com/franciiscotoro/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <FaInstagram />
+                </a>
+                <a href={cvEspañol} download="CV-FranciscoToro-Dev-ES">Res ES</a>
+                <a href={cvEnglish} download="CV-FranciscoToro-Dev-EN">Res EN</a>
+                
+            </section>
+            
+            <header className={styles["header-info"]}>
+                <h1 className={styles["h-color"]}>Francisco Toro</h1>
+                <h2 className={styles["h-color"]}>Web Developer</h2>
+                <p className="text-color">Bringing ideas to life through pixels and logic.</p>
             </header>
-            <nav className="navbar navbar-expand-sm ">
-                <div className="container  d-flex justify-content-start">
-                    <ul className="navbar-nav flex-column ms-5 mt-4 ">
-                        <li className="nav-item">
-                            <a
-                                href="#about-me" className="nav-link text-color ">
-                                <span className={`text-color ${styles.navBarItem}  `} > ABOUT</span>
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="#projects" className="nav-link">
-                                <span className={`text-color ${styles.navBarItem} `} > PROJECTS</span>
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="#about-me" className={` nav-link `}>
-                                <span className={`text-color ${styles.navBarItem} `} > CONTACT</span>
-                            </a>
-                        </li>
-                    </ul>
 
-                </div>
+
+            <nav className={styles.nav}>
+                <ul className={styles.navList}>
+                    <li><a href="#about-me" className={styles.navLink}>ABOUT</a></li>
+                    <li><a href="#projects" className={styles.navLink}>PROJECTS</a></li>
+                    
+                </ul>
             </nav>
-        </div>
-    )
-}
 
-export default NavBar
+        </aside>
+    );
+};
+
+export default NavBar;
+

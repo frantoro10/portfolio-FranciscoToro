@@ -1,4 +1,53 @@
+
+@font-face {
+  font-family:'Inter';
+  src: url('assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+
+
 #root {
     box-sizing: border-box;
-    background-color: rgb(15 23 42)
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    
+    /*  Paleta de colores */
+    --primary-color: rgb(15 23 42);
+    --primary-button-color: #CBD5E1;
+    --button-hover: #94A3B8;
+    --primary-text-color: rgb(148 163 184);
+    --secondary-text-color: #e2e8f0e7;
+
+    /* // Fuentes */
+    --primary-font: 'Inter', sans-serif;
+    --font-size-base: 1rem;
+    --font-size-large: 1.1em;
+    --font-size-small: 1em;
+    
+    
+    /* // Botones */
+    --button-padding: 0.8rem 1.5rem;
+    --button-border-radius: 0.3rem;
 }
+    
+h1 {
+  color: var(--secondary-text-color) !important; 
+  font-size: 2.5rem !important;
+}
+
+h2 {
+  color: var(--secondary-text-color) !important; 
+  font-size: 1.3rem !important;
+}
+
+h3 {
+  color: var(--secondary-text-color) !important; 
+}
+
+
+#root {
+    background-color: var(--primary-color);
+}    
