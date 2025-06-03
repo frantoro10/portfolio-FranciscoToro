@@ -1,7 +1,7 @@
 
 @font-face {
   font-family:'Inter';
-  src: url('assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+  src: url(/fonts/inter/Inter-VariableFont.ttf) format('truetype');
   font-weight: 100 900;
   font-style: normal;
 }
