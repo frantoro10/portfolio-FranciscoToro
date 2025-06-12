@@ -6,7 +6,7 @@ const AboutMe = () => {
     <section className={` ${styles["about-container"]}  `}>
       <article className={`${styles["about-article"]}`} id="about-me">
         <p>
-         I'm a developer with experience in <strong>Front-End</strong> (JavaScript, React) and <strong>Back-End</strong> (Python, Node.js), as well as <strong>databases</strong> such as MySQL, PostgreSQL, and Firebase. I'm currently studying Software Development at ISPC, where I continue to acquire valuable skills for my professional growth.
+         I'm a developer with experience in <strong>Front-End</strong> (JavaScript, TypeScript, React, NextJS) and <strong>Back-End</strong> (Python, Node.js, FastAPI, Django (Learning)), as well as <strong>databases</strong> such as MySQL, PostgreSQL, and Firebase. I'm currently studying Software Development at ISPC, where I continue to acquire valuable skills for my professional growth.
         </p>
 
         <p>
