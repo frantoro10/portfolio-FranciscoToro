@@ -31,7 +31,7 @@ A brief introduction highlighting who I am, my background, and my passion for we
 
 ### 💡 Skills
 Visual list of my technical skills including frontend and backend technologies:
-- HTML, CSS, JavaScript, TypeScript, React
+- HTML, CSS, JavaScript, TypeScript, React, NextJS
 - Node.js, Express, Python
 - Git & GitHub
 - MongoDB, MySQL, PostgreSQL
