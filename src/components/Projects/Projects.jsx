@@ -15,7 +15,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Two automated bots: Binance Futures Tranding and World of Warcraft Auction House data analysis', 
+      title: 'Two automated bots: Binance Futures Trading and World of Warcraft Auction House data analysis', 
       img: '/projects/automated_bot.jpg',
       description:
         'A Python project featuring two automation bots: one for algorithmic trading on Binance Futures using technical indicators and risk management, and another for searching and analyzing item deals in the World of Warcraft Auction House via the Blizzard API. Both bots are fully configurable and designed for efficiency and ease of use.',
