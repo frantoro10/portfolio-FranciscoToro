@@ -24,7 +24,7 @@ const NavBar = () => {
             
             <header className={styles["header-info"]}>
                 <h1 className={styles["h-color"]}>Francisco Toro</h1>
-                <h2 className={styles["h-color"]}>Web Developer</h2>
+                <h2 className={styles["h-color"]}>Full-Stack Software Developer</h2>
                 <p className="text-color">Bringing ideas to life through pixels and logic.</p>
             </header>
 
