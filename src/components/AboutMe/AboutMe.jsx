@@ -6,22 +6,23 @@ const AboutMe = () => {
     <section className={` ${styles["about-container"]}  `}>
       <article className={`${styles["about-article"]}`} id="about-me">
         <p>
-         I'm a developer with experience in <strong>Front-End</strong> (JavaScript, TypeScript, React, NextJS) and <strong>Back-End</strong> (Python, Node.js, FastAPI, Django, AWS, Docker), as well as <strong>databases</strong> such as MySQL, PostgreSQL, and Firebase. I'm currently studying Software Development at ISPC, where I continue to acquire valuable skills for my professional growth.
+          Hi! I’m <strong>Francisco Toro</strong>, a Software Developer focused on applying technology to solve real problems and create a positive impact.
         </p>
 
         <p>
-          Technology fuels my passion. I'm driven by a constant desire to improve and expand my knowledge, with a focus on <strong>Full-Stack Development</strong>. This is the career path I've chosen and the one I continue to explore and deepen year after year.
+          I specialize in building robust and scalable web applications, working with <strong>React, Angular, and Next.js</strong> on the front-end, and <strong>Django, FastAPI, Node.js, and WordPress</strong> on the back-end. My goal is to understand business needs and translate them into efficient, maintainable, and valuable technical solutions.
         </p>
 
         <p>
-          I also enjoy learning languages and practice English daily to sharpen my communication skills. Currently, I have a <strong>B2</strong> level in Listening and Speaking, and a C2 in Reading.{" "}
-          <a
-            href="https://cert.efset.org/m8aPVz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            EF SET Certificate
-          </a>
+          I enjoy turning ideas into solid products. I strongly believe that <strong>code quality</strong>—clean code, best practices, and solid architecture—is the foundation that allows projects to grow and adapt without friction.
+        </p>
+
+        <p>
+          Currently, I’m building portfolio projects aimed at solving practical needs, applying my tech stack to create solutions with purpose.
+        </p>
+
+        <p>
+          I’m a curious and collaborative person, convinced that <strong>clear communication and empathy</strong> are as crucial as technical skills. I’m looking for opportunities where I can contribute my knowledge while growing alongside a team that shares the vision of building technology with purpose.
         </p>
 
         <p>

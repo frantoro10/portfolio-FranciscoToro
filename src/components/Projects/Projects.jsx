@@ -25,19 +25,6 @@ const Projects = () => {
       github: 'https://github.com/frantoro10/automated-bots-python',
       url: 'https://github.com/frantoro10/automated-bots-python',
     }, 
-
-    {
-      id: 3,
-      title: 'E-commerce',
-      img: '/projects/ecommerce-react.jpg',
-      description:
-        'Simulation of a nearly complete E-commerce from the visual side. The user can browse, view, and filter products, as well as add them to the cart. They can also view product details with an image gallery and see prices with their corresponding promotional options for different payment methods (installments, etc.).',
-      tec1: "React",
-      tec2: "Firebase",
-      tec3: "Bootstrap",  
-      github: 'https://github.com/frantoro10/Ecommerce-ReactJS',
-      url: 'https://ecommerce-react-js-umber.vercel.app/',
-    },
     {
       id: 4,
       title: 'Mini Business System',
