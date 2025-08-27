@@ -37,9 +37,8 @@
 
 .about-img img {
   width: 100%;
-  max-width: 20rem;
   height: auto;
-  max-height: 26rem;
+  max-height: 50rem;
   object-fit: cover;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -76,6 +75,6 @@
 
   .about-img img {
     max-width: 80%;
-    max-height: 50rem;
+    max-height: 40rem;
   }
 }
