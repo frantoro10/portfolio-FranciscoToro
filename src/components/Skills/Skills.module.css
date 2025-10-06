@@ -1,0 +1,61 @@
+.skillsContainer {
+  background-color: rgb(24, 32, 45); /* Gris oscuro azulado */
+  border: 1px solid rgb(40, 50, 65); /* Gris azulado suave */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+  padding: 2rem;
+  margin-bottom: 5rem;
+  border-radius: 0.5rem;
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+}
+
+.h2Section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.skillsCategory {
+  margin-bottom: 2rem;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  justify-content: center; /* Centra las mini-cards */
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(9, 58, 73, 0.5); /* Color similar al de las tecnologías en Projects */
+  padding: 0.8rem 1.2rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 12rem; /* Ancho uniforme para todas las mini-cards */
+  justify-content: center; /* Centra el contenido dentro de la mini-card */
+}
+
+.skillItem:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.skillIcon {
+  font-size: 1.5rem;
+  color: rgb(187, 236, 255); /* Color accesible y consistente con el diseño */
+}
+
+@media (max-width: 768px) {
+  .skillsList {
+    gap: 1rem;
+  }
+
+  .skillItem {
+    width: 45%; /* 2 columnas en pantallas pequeñas */
+  }
+}

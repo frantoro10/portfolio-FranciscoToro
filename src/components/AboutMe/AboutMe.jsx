@@ -3,8 +3,8 @@ import perfilImg from "../../assets/img/perfil-img.jpg"
 
 const AboutMe = () => {
   return (
-    <section className={` ${styles["about-container"]}  `}>
-      <article className={`${styles["about-article"]}`} id="about-me">
+    <section className={` ${styles["about-container"]}`} id="about-me"  >
+      <article className={`${styles["about-article"]}`} >
         <p>
           Hi! I’m <strong>Francisco Toro</strong>, a Software Developer focused on applying technology to solve real problems and create a positive impact.
         </p>

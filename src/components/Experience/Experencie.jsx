@@ -13,8 +13,9 @@ const Experience = () => {
     ]
 
     return (
-        <section id={`${styles['experience-container']}`}>
-            <h2 class={styles["h2-section"]} >Professional Experience</h2>
+
+        <section className={`${styles['experience-container']}`} id='experience'>
+            <h2 class={styles["h2-section"]} id="experience" >Professional Experience</h2>
             {experienceList.map(experience => {
                 return (
                     <article key={experience.id} className={styles['experience-card']}>
@@ -25,6 +26,7 @@ const Experience = () => {
                 )
             })}
         </section>
+
     );
 };
 

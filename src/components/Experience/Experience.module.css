@@ -1,4 +1,4 @@
-#experience-container {
+.experience-container {
     background-color: rgb(24, 32, 45); /* Gris oscuro azulado */
     border: 1px solid rgb(40, 50, 65); /* Gris azulado suave */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ligera */
