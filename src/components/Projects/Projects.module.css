@@ -1,10 +1,19 @@
 .project-container {
+    background-color: rgb(24, 32, 45); /* Gris oscuro azulado */
+    border: 1px solid rgb(40, 50, 65); /* Gris azulado suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    display: flex;
     display: flex;
     flex-direction: column;
     padding: 2rem;
     gap: 2rem;
     margin-bottom: 5rem;
 }
+
+.h2-section {
+  text-align: center;
+}
+
 .card-container {
     display: flex;
     flex-direction: row;

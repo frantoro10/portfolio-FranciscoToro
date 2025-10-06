@@ -32,6 +32,7 @@ const NavBar = () => {
             <nav className={styles.nav}>
                 <ul className={styles.navList}>
                     <li><a href="#about-me" className={styles.navLink}>ABOUT</a></li>
+                    <li><a href="#" className={styles.navLink}></a>PROFESSIONAL EXPERIENCE</li>
                     <li><a href="#projects" className={styles.navLink}>PROJECTS</a></li>
                     
                 </ul>

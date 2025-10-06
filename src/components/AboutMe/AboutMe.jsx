@@ -10,7 +10,7 @@ const AboutMe = () => {
         </p>
 
         <p>
-          I specialize in building robust and scalable web applications, working with <strong>React, Angular, and Next.js</strong> on the front-end, and <strong>Django, FastAPI, Node.js, and WordPress</strong> on the back-end. My goal is to understand business needs and translate them into efficient, maintainable, and valuable technical solutions.
+          I specialize in building robust and scalable web applications, working mainly (stack) with <strong>React, Angular</strong> on the front-end, and <strong>Django, FastAPI</strong> on the back-end. My goal is to understand business needs and translate them into efficient, maintainable, and valuable technical solutions.
         </p>
 
         <p>

@@ -1,4 +1,3 @@
-
 @font-face {
   font-family:'Inter';
   src: url(/fonts/inter/Inter-VariableFont.ttf) format('truetype');
@@ -18,8 +17,8 @@
     --primary-color: rgb(15 23 42);
     --primary-button-color: #CBD5E1;
     --button-hover: #94A3B8;
-    --primary-text-color: rgb(148 163 184);
-    --secondary-text-color: #e2e8f0e7;
+    --primary-text-color: rgb(200, 210, 220); /* Gris claro */
+    --secondary-text-color: #f1f5f9; /* Gris casi blanco */
 
     /* // Fuentes */
     --primary-font: 'Inter', sans-serif;
@@ -35,19 +34,20 @@
     
 h1 {
   color: var(--secondary-text-color) !important; 
-  font-size: 2.5rem !important;
+  font-size: 2rem !important;
 }
 
 h2 {
-  color: var(--secondary-text-color) !important; 
-  font-size: 1.3rem !important;
+  color: var(--primary-text-color) !important; 
+  font-size: 1.7rem !important;
 }
 
 h3 {
-  color: var(--secondary-text-color) !important; 
+  color: var(--secondary-text-color) !important;
+  font-size: 1.3rem !important 
 }
 
 
 #root {
     background-color: var(--primary-color);
-}    
+}

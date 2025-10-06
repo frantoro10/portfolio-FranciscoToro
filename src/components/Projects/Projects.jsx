@@ -2,8 +2,19 @@ import styles from './Projects.module.css';
 
 const Projects = () => {
   const projects = [
-    {
+      {
       id: 1,
+      title: 'Automatic E-book Generator with AI',
+      img: '/projects/github-logo.webp',
+      description: 'This project is a tool that allows you to generate PDF e-books from a topic and target audience. It uses language models to create the index and content of each chapter, and converts them into a clean and well-structured PDF.',
+      tec1: "FastAPI",
+      tec2: "OpenRouter - Mistral",
+      tec3: "Weasyprint",
+      github: 'https://github.com/frantoro10/ebook-generator',
+      url: 'https://github.com/frantoro10/ebook-generator',
+    },
+    {
+      id: 2,
       title: 'Task manager',
       img: '/projects/task-manager.png',
       description: 'Task Manager is a minimal full-stack application to help you organize your daily tasks efficiently. It features a clean and modern interface built with Next.js, TypeScript, TailwindCSS and a simple Express.js backend. Tasks are stored in a local JSON file, making it ideal for educational purposes or quick demos. For personal or production use, I recommend integrating a proper database for data persistence.',
@@ -14,7 +25,7 @@ const Projects = () => {
       url: 'https://task-manager-1y38.vercel.app/',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Two automated bots: Binance Futures Trading and World of Warcraft Auction House data analysis', 
       img: '/projects/automated_bot.jpg',
       description:
@@ -36,24 +47,12 @@ const Projects = () => {
       tec3: "Bootstrap",  
       github: 'https://github.com/frantoro10/Kiosco-Familiar',
       url: 'https://mini-business.vercel.app/',
-    },
-    {
-      id: 5,
-      title: 'investment application ',
-      img: '/projects/github-logo.webp',
-      description: 'ARGBroker is a console-based stock investment application that allows users to simulate buying and selling stocks, visualize their portfolio, and manage user accounts in a simple, educational environment.',
-      tec1: "Python",
-      tec2: "MySQL",
-      tec3: "DAO",
-      github: 'https://github.com/frantoro10/project-tecnicatura-argbroker',
-      url: 'https://github.com/frantoro10/project-tecnicatura-argbroker',
     }
   ];
 
   return (
     <section className={`${styles["project-container"]} `} id="projects">
-      
-      
+        <h2 class={styles["h2-section"]}>My Projects</h2>
         {projects.map((project) => (
           <article className={`${styles["card-container"]}`} key={project.id}>
 
