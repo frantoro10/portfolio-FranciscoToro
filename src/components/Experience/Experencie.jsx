@@ -7,7 +7,7 @@ const Experience = () => {
             id: 1,
             title: "DGES Córdoba – WordPress + PHP Development Internship",
             period: "2025 - Present",
-            description: "Collaborated in the development of a new institutional portal version. Implemented features in WordPress with PHP and improved responsive design (Plugins). Implemented features in WordPress with PHP and improved responsive design."
+            description: "Contributed to the new institutional portal redesign using WordPress and PHP. Developed and customized plugins to extend site functionality. Improved mobile responsiveness and integrated JavaScript-based interactive components"
         }
 
     ]
