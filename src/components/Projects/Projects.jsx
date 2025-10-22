@@ -2,8 +2,20 @@ import styles from './Projects.module.css';
 
 const Projects = () => {
   const projects = [
+
     {
       id: 1,
+      title: 'Mini Business App for Product Management',
+      img: '/projects/mini-business-app.png',
+      description:
+        'Big Bull Shop System is a real-world inventory management application designed for small to medium retail businesses. It provides a comprehensive solution for managing products, tracking prices and costs, and controlling access through role-based authentication.The system features a public-facing product catalog for customers while restricting administrative functions (CRUD operations) to authenticated users, making it ideal for businesses that want to showcase their inventory online while maintaining secure backend control.',
+      tec1: "React",
+      tec2: "Firebase",
+      github: 'https://github.com/frantoro10/Kiosco-Familiar',
+      url: 'https://mini-business.vercel.app/',
+    },
+    {
+      id: 2,
       title: 'Automatic E-book Generator with AI',
       img: '/projects/github-logo.webp',
       description: 'This project is a tool that allows you to generate PDF e-books from a topic and target audience. It uses language models to create the index and content of each chapter, and converts them into a clean and well-structured PDF.',
@@ -14,7 +26,7 @@ const Projects = () => {
       url: 'https://github.com/frantoro10/ebook-generator',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Task manager',
       img: '/projects/task-manager.png',
       description: 'Task Manager is a minimal full-stack application to help you organize your daily tasks efficiently. It features a clean and modern interface built with Next.js, TypeScript, TailwindCSS and a simple Express.js backend. Tasks are stored in a local JSON file, making it ideal for educational purposes or quick demos. For personal or production use, I recommend integrating a proper database for data persistence.',
@@ -23,18 +35,6 @@ const Projects = () => {
       tec3: 'Express.js',
       github: 'https://github.com/frantoro10/task-manager',
       url: 'https://task-manager-1y38.vercel.app/',
-    },
-    {
-      id: 3,
-      title: 'Mini Business App for Product Management',
-      img: '/projects/mini-business-app.jpg',
-      description:
-        'The app is built with React for the frontend and Firebase for the backend, ensuring a responsive and efficient user experience. It is a system aimed at helping a business owner better visualize their products and have the ability to add or change product prices. It includes filters and a price calculator per product. The owner can use this basic system to also calculate the prices of products requested by customers on the spot. A barcode scanner is planned to be implemented into the system.',
-      tec1: "React",
-      tec2: "Firebase",
-      tec3: "Bootstrap",
-      github: 'https://github.com/frantoro10/Kiosco-Familiar',
-      url: 'https://mini-business.vercel.app/',
     },
     {
       id: 4,
