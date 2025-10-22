@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPython, faJs, faReact, faAngular, faDocker, faAws, faGit, faGithub, faPhp } from '@fortawesome/free-brands-svg-icons';
+import { faPython, faJs, faReact, faAngular, faDocker, faAws, faGit, faGithub, faPhp, faNode } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import styles from './Skills.module.css';
 
@@ -12,12 +12,14 @@ const Skills = () => {
   ];
 
   const complementary = [
-    { id: 1, name: 'FastAPI', icon: faPython },
+    { id: 1, name: 'React Native', icon: faReact },
     { id: 2, name: 'Next.js', icon: faReact },
-    { id: 3, name: 'WordPress (PHP)', icon: faPhp },
-    { id: 4, name: 'MySQL', icon: faDatabase },
-    { id: 5, name: 'AWS (basic)', icon: faAws },
-    { id: 6, name: 'Docker (basic)', icon: faDocker },
+    { id: 3, name: 'Node.js', icon: faNode },
+    { id: 4, name: 'FastAPI', icon: faPython },
+    { id: 5, name: 'WordPress (PHP)', icon: faPhp },
+    { id: 6, name: 'MySQL', icon: faDatabase },
+    { id: 7, name: 'AWS (basic)', icon: faAws },
+    { id: 8, name: 'Docker (basic)', icon: faDocker },
   ];
 
   const methodologies = [

@@ -1,6 +1,5 @@
 import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
-import cvEspañol from '../../assets/cv/CV_Francisco_Toro_Español.pdf'
-import cvEnglish from '../../assets/cv/CV_Francisco_Toro_English.pdf'
+import resumeEnglish from '../../assets/cv/resume-franciscotoro.pdf'
 
 import styles from './NavBar.module.css';
 
@@ -17,15 +16,14 @@ const NavBar = () => {
                 <a href="https://www.instagram.com/franciiscotoro/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                     <FaInstagram />
                 </a>
-                <a href={cvEspañol} download="CV-FranciscoToro-Dev-ES">Res ES</a>
-                <a href={cvEnglish} download="CV-FranciscoToro-Dev-EN">Res EN</a>
+                <a href={resumeEnglish} download="CV-FranciscoToro-Dev-EN">Resume</a>
                 
             </section>
             
             <header className={styles["header-info"]}>
                 <h1 className={styles["h-color"]}>Francisco Toro</h1>
-                <h2 className={styles["h-color"]}>Full-Stack Developer</h2>
-                <p className="text-color">Building Web Applications with Purpose.</p>
+                <h2 className={styles["h-color"]}>Software Developer</h2>
+                <p className="text-color">Building Applications with Purpose.</p>
             </header>
 
 
