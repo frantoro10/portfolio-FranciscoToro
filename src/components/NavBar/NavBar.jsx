@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 import resumeEnglish from '../../assets/cv/resume-franciscotoro.pdf'
 
 import styles from './NavBar.module.css';
@@ -15,6 +15,9 @@ const NavBar = () => {
                 </a>
                 <a href="https://www.instagram.com/franciiscotoro/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                     <FaInstagram />
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=3521405097" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                    <FaWhatsapp />
                 </a>
                 <a href={resumeEnglish} download="CV-FranciscoToro-Dev-EN">Resume</a>
                 
