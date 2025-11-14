@@ -5,21 +5,17 @@ import styles from './Skills.module.css';
 
 const Skills = () => {
   const mainStack = [
-    { id: 1, name: 'Angular', icon: faAngular },
-    { id: 2, name: 'React', icon: faReact },
-    { id: 3, name: 'Django', icon: faDatabase },
+    { id: 1, name: 'Django', icon: faDatabase },
+    { id: 2, name: 'FastAPI', icon: faPython },
+    { id: 3, name: 'React', icon: faReact },
     { id: 4, name: 'PostgreSQL', icon: faDatabase },
   ];
 
   const complementary = [
-    { id: 1, name: 'React Native', icon: faReact },
-    { id: 2, name: 'Next.js', icon: faReact },
-    { id: 3, name: 'Node.js', icon: faNode },
-    { id: 4, name: 'FastAPI', icon: faPython },
-    { id: 5, name: 'WordPress (PHP)', icon: faPhp },
-    { id: 6, name: 'MySQL', icon: faDatabase },
-    { id: 7, name: 'AWS (basic)', icon: faAws },
-    { id: 8, name: 'Docker (basic)', icon: faDocker },
+    { id: 1, name: 'WordPress (PHP)', icon: faPhp },
+    { id: 2, name: 'MySQL', icon: faDatabase },
+    { id: 3, name: 'AWS', icon: faAws },
+    { id: 48, name: 'Docker', icon: faDocker },
   ];
 
   const methodologies = [
