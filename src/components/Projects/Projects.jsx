@@ -27,17 +27,6 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Task manager',
-      img: '/projects/task-manager.png',
-      description: 'Task Manager is a minimal full-stack application to help you organize your daily tasks efficiently. It features a clean and modern interface built with Next.js, TypeScript, TailwindCSS and a simple Express.js backend. Tasks are stored in a local JSON file, making it ideal for educational purposes or quick demos. For personal or production use, I recommend integrating a proper database for data persistence.',
-      tec1: 'TypeScript',
-      tec2: 'Next.js',
-      tec3: 'Express.js',
-      github: 'https://github.com/frantoro10/task-manager',
-      url: 'https://task-manager-1y38.vercel.app/',
-    },
-    {
-      id: 4,
       title: 'Two automated bots: Binance Futures Trading and World of Warcraft Auction House data analysis',
       img: '/projects/automated_bot.jpg',
       description:
