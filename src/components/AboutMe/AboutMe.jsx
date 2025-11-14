@@ -10,7 +10,7 @@ const AboutMe = () => {
         </p>
 
         <p>
-          I specialize in building robust and scalable web-mobile applications,  My goal is to understand business needs and translate them into efficient, maintainable, and valuable technical solutions.
+          I specialize in building robust and scalable software. My goal is to understand business needs and translate them into efficient, maintainable, and valuable technical solutions.
         </p>
 
         <p>
