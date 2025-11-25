@@ -5,14 +5,14 @@ const Projects = () => {
 
     {
       id: 1,
-      title: 'Mini Business App for Product Management',
-      img: '/projects/mini-businesss-app.png',
+      title: 'Business App for Product Management',
+      img: '/projects/big-bull-app.png',
       description:
-        'Big Bull Shop System is a real-world inventory management application designed for small to medium retail businesses. It provides a comprehensive solution for managing products, tracking prices and costs, and controlling access through role-based authentication.The system features a public-facing product catalog for customers while restricting administrative functions (CRUD operations) to authenticated users, making it ideal for businesses that want to showcase their inventory online while maintaining secure backend control.',
+        'Big Bull Shop System is a real-world inventory management application designed for retail businesses. It provides a comprehensive solution for managing products, tracking prices and costs, and controlling access through role-based authentication.The system features a public-facing product catalog for customers while restricting administrative functions (CRUD operations) to authenticated users, making it ideal for businesses that want to showcase their inventory online while maintaining secure backend control.',
       tec1: "React",
       tec2: "Firebase",
       github: 'https://github.com/frantoro10/Kiosco-Familiar',
-      url: 'https://mini-business.vercel.app/',
+      url: 'https://bigbullk.vercel.app/',
     },
     {
       id: 2,
