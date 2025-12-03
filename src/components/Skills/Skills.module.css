@@ -1,8 +1,8 @@
 .skillsContainer {
-  background-color: rgb(24, 32, 45); /* Gris oscuro azulado */
-  border: 1px solid rgb(40, 50, 65); /* Gris azulado suave */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ligera */
-  padding: 2rem;
+  background-color: var(--secondary-bg-color);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 2.5rem;
   margin-bottom: 5rem;
   border-radius: 0.5rem;
   color: var(--primary-text-color);
@@ -11,51 +11,109 @@
 
 .h2Section {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-text-color);
 }
 
 .skillsCategory {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
-.skillsList {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  list-style: none;
-  padding: 0;
-  justify-content: center; /* Centra las mini-cards */
+.categoryTitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: var(--secondary-text-color);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.5rem;
 }
 
-.skillItem {
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.skillBadge {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  background-color: rgba(9, 58, 73, 0.5); /* Color similar al de las tecnologías en Projects */
-  padding: 0.8rem 1.2rem;
-  border-radius: 0.7rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  width: 12rem; /* Ancho uniforme para todas las mini-cards */
-  justify-content: center; /* Centra el contenido dentro de la mini-card */
+  gap: 0.6rem;
+  background: linear-gradient(135deg, rgba(9, 58, 73, 0.6), rgba(9, 58, 73, 0.4));
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+  cursor: default;
+  white-space: nowrap;
 }
 
-.skillItem:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+.skillBadge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(9, 58, 73, 0.4);
+  border-color: var(--accent-color);
+  background: linear-gradient(135deg, rgba(9, 58, 73, 0.8), rgba(9, 58, 73, 0.6));
 }
 
 .skillIcon {
-  font-size: 1.5rem;
-  color: rgb(187, 236, 255); /* Color accesible y consistente con el diseño */
+  font-size: 1.2rem;
+  color: var(--secondary-text-color);
+  flex-shrink: 0;
 }
 
+.skillName {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+
+/* Tablet */
 @media (max-width: 768px) {
-  .skillsList {
-    gap: 1rem;
+  .skillsContainer {
+    padding: 2rem;
   }
 
-  .skillItem {
-    width: 45%; /* 2 columnas en pantallas pequeñas */
+  .skillsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .categoryTitle {
+    font-size: 1.2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .skillsContainer {
+    padding: 1.5rem;
+  }
+
+  .h2Section {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .skillsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem;
+  }
+
+  .skillBadge {
+    padding: 0.6rem 0.8rem;
+    justify-content: center;
+  }
+
+  .skillIcon {
+    font-size: 1.1rem;
+  }
+
+  .skillName {
+    font-size: 0.85rem;
+  }
+
+  .categoryTitle {
+    font-size: 1.1rem;
   }
 }
