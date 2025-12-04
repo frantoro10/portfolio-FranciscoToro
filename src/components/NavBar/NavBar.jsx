@@ -19,10 +19,16 @@ const NavBar = () => {
                 <a href="https://api.whatsapp.com/send/?phone=3521405097" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                     <FaWhatsapp />
                 </a>
+                <a
+                    href="mailto:torofrancisco13@gmail.com"
+                    aria-label="Email"
+                >
+                    <FaEnvelope/>
+                </a>
                 <a href={resumeEnglish} download="CV-FranciscoToro-Dev-EN">Resume</a>
-                
+
             </section>
-            
+
             <header className={styles["header-info"]}>
                 <h1 className={styles["h-color"]}>Francisco Toro</h1>
                 <h2 className={styles["h-color"]}>Junior Software Developer</h2>
@@ -36,7 +42,7 @@ const NavBar = () => {
                     <li><a href="#skills" className={styles.navLink}>SKILLS</a></li>
                     <li><a href="#experience" className={styles.navLink}>PROFESSIONAL EXPERIENCE</a></li>
                     <li><a href="#projects" className={styles.navLink}>PROJECTS</a></li>
-                    
+
                 </ul>
             </nav>
 
