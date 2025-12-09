@@ -31,7 +31,7 @@ const NavBar = () => {
 
             <header className={styles["header-info"]}>
                 <h1 className={styles["h-color"]}>Francisco Toro</h1>
-                <h2 className={styles["h-color"]}>Junior Software Developer</h2>
+                <h2 className={styles["h-color"]}>Junior Full Stack Developer</h2>
                 <p className="text-color">Building Applications with Purpose.</p>
             </header>
 
@@ -40,6 +40,7 @@ const NavBar = () => {
                 <ul className={styles.navList}>
                     <li><a href="#about-me" className={styles.navLink}>ABOUT</a></li>
                     <li><a href="#skills" className={styles.navLink}>SKILLS</a></li>
+                    <li><a href="#education" className={styles.navLink}>EDUCATION</a></li>
                     <li><a href="#experience" className={styles.navLink}>PROFESSIONAL EXPERIENCE</a></li>
                     <li><a href="#projects" className={styles.navLink}>PROJECTS</a></li>
 
