@@ -5,7 +5,7 @@ const Education = () => {
     {
       id: 1,
       title: "Higher Technical Degree in Software Development",
-      institution: "Instituto Provincial de Educación Superior (IPES)",
+      institution: "Instituto Superior Politécnico Córdoba (ISPC)",
       period: "2023 - Present",
       status: "In Progress",
       description: "Comprehensive program covering full-stack development, software architecture, databases, and modern development methodologies.",
